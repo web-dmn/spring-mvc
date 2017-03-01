@@ -1,0 +1,6 @@
+.idea/
+out/
+src/main/resources/
+src/main/webapp/WEB-INF/resources/js/
+src/test/
+target/
