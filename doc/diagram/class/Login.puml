@@ -1,0 +1,27 @@
+@startuml
+!include ../inc/skin.inc
+
+class LoginController {
+}
+class LoginServiceImpl {
+}
+class UserDaoImpl {
+}
+class UserEntity {
+ - Integer id
+ - String name
+ - String password
+}
+interface LoginService {
+}
+interface UserDao {
+}
+
+LoginService -left- LoginServiceImpl
+LoginController .down.> LoginService :DI
+UserDao -up- UserDaoImpl
+LoginServiceImpl .left.> UserDao :DI
+LoginController ..> UserEntity
+LoginServiceImpl ..> UserEntity
+UserDaoImpl ..> UserEntity
+@enduml
