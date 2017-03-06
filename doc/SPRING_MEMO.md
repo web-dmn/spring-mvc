@@ -8,7 +8,7 @@ https://spring.io/
 
 | Item| Name | Version |
 |---|---|---|
- |ビルド管理 | Maven | 3.3.9|
+|ビルド管理 | Maven | 3.3.9|
 
 
 
@@ -26,7 +26,7 @@ https://spring.io/
 
 ## Maven(pom.xml)の設定
 
-| groupId| artifactId | Version | 
-|---|---|---|  
- |org.springframework | spring-webmvc | .3.6.RELEASE|  
- |javax.servlet|servlet-api2.5|  
+| groupId| artifactId | Version |
+|---|---|---|
+|org.springframework | spring-webmvc | .3.6.RELEASE|
+|javax.servlet|servlet-api2.5|
