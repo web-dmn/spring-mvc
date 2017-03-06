@@ -1,14 +1,20 @@
 # Spring Framework Memo
 ## 概要
 - SpringFrameworkの最新バージョン  
-2017/1/25  
+ UP : 2017/1/25  
 4.3.6.RELEASE
 - Springのサイト  
 https://spring.io/
 
+| Item| Name | Version |
+|---|---|---|
+ |ビルド管理 | Maven | 3.3.9|
+
+
 
 ## 処理フロー
-- SpringMVCの処理フロー
+- SpringMVCの処理フロー  
+
 1. DispatcherServletがすべてのリクエストを受け取りHandlerMappingを介してControllerへ振り分ける。
 2. ControllerでValidationチェックを行い結果を返す。
 3. Controllerからビジネスロジック層のServiceを呼び出す。
@@ -18,3 +24,9 @@ https://spring.io/
 7. 該当したViewへ結果を出力する。
 8. クライアントへ返す。
 
+## Maven(pom.xml)の設定
+
+| groupId| artifactId | Version | 
+|---|---|---|  
+ |org.springframework | spring-webmvc | .3.6.RELEASE|  
+ |javax.servlet|servlet-api2.5|  
