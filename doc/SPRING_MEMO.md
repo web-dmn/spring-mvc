@@ -28,5 +28,5 @@ https://spring.io/
 
 | groupId| artifactId | Version |
 |---|---|---|
-|org.springframework | spring-webmvc | .3.6.RELEASE|
-|javax.servlet|servlet-api2.5|
+|org.springframework | spring-webmvc | 4.3.6.RELEASE|
+|javax.servlet|servlet-api|2.5|
