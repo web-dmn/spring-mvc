@@ -75,7 +75,7 @@ public class SampleController {
 [@RequestMappingの引数]
 
 | name | value | desc |
-|--------|--------|----|
+|--------|--------|------------|
 | value | "URL" | 指定されたURLへのリクエストに対して処理を実施 |
 | method | RequestMethod.GET(POST) | リクエストがGET(POST)の場合に処理を実施 |
 
