@@ -11,7 +11,7 @@ import java.io.Serializable;
 @Repository
 public class UserEntity implements Serializable{
 
-    private Integer id ;
+    private Integer id;
     private String name;
     private String password;
 

@@ -78,6 +78,7 @@ public class SampleController {
 |--------|--------|------------|
 | value | "URL" | 指定されたURLへのリクエストに対して処理を実施 |
 | method | RequestMethod.GET(POST) | リクエストがGET(POST)の場合に処理を実施 |
+| params | "パラメータ名" | JSP側のnameに一致した場合に処理を実施 |
 
 
 [メソッドの引数と戻り値]
@@ -106,4 +107,10 @@ public class SampleController {
 戻り値：ModelAndView  
 引数：@RequestParam(value = "キー名") Integer 変数  
 備考：URL?キー名=値のリクエストで値を受け取る
+
+- Form  
+戻り値：ModelAndView  
+第一引数：@ModelAttribute XxxForm xxxForm  
+第二引数：BindingResult bindingResult  
+備考：bindingResult.hasError()でバインドエラー処理
 

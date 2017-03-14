@@ -1,9 +1,130 @@
-body {
-    background: #333333;
+/*#####################
+ * トップページの設定
+ * 2017/3/10
+ *#####################
+ */
+
+/* 全体の設定 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+}
+h1 {font-size: 3em}
+h2 {margin-bottom: 15px; font-weight: 500;}
+
+a {
+    color: #77ae52;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+html,body {
+    background: #f1f1f1;
+    font-family: "Varela Round",sans-serif;
+    color: #34302d;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.wapper {
+}
+
+.header {
+    height: 8em;
+    padding: 2em;
+    background: #34302d;
     color: #fefefe;
 }
 
-a {
-    color: #77c8fe;
-    text-decoration: none;
+.header img {
+    width: 16px;
+    margin-right: 3px;
+    vertical-align: middle;
+}
+
+.main {
+    margin: 3em auto;
+    max-width: 1024px;
+}
+
+.main:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.fluid-box-left {
+    width: 67%;
+    padding-right: 40px;
+    float:left;
+}
+
+.fluid-box-left p {
+    margin-bottom: 40px;
+}
+
+.fluid-box-right {
+    width: 32%;
+    float: right;
+}
+
+.box-title {
+    padding: 1em;
+    border: 1px solid #34302d;
+    border-bottom: none;
+}
+
+.count-container {
+    padding: 1em;
+    border: 1px solid #34302d;
+}
+
+
+.footer {
+    height: 10em;
+    padding: 2em;
+    background: #34302d;
+    clear: both;
+    color: #fefefe;
+}
+
+.copyright {
+    margin-top: 20px;
+    text-align: right;
+}
+
+
+/* ▼詳細パーツ▼  */
+pre {
+    margin-bottom: 1.5em;
+    padding: 1em 1.5em;
+    background: #f5f5f5;
+    border: 1px solid #9896a2;
+    font-family: "Meiryo UI";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+/* ▼Table▼ */
+table {
+    margin-bottom: 2em;
+}
+
+/* ▼登録フォーム▼ */
+.login-form {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+input {
+    border: none;
 }

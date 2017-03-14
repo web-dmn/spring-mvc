@@ -13,13 +13,14 @@
     <title>Sample</title>
 </head>
 <body>
-    <h1>
+    <h2>
         ${ID}
-    </h1>
+    </h2>
 
     <p>
         ${msg} <br>
-        ${data}
+        ${data}<br>
+        ${hogeid}
     </p>
 </body>
 </html>
